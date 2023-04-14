@@ -97,13 +97,23 @@ li{
 .left-MarketingContent{
     margin: calc(30px + 1vw);
     margin-left:calc(20px + 1vw);
-    margin-right:calc(100px + 2vw);
+    margin-right:calc(100px + 6vw);
 }
 .BoderedBox-Heading{
     border: 1px solid var(--white);
-    padding: calc(12px + .3vw);
+    font-size: calc(8px + .75vw);
+    font-weight: 700;
+    padding: calc(12px + .1vw);
     border-radius: 10px;
-    margin-right:calc(50px + 1vw);
+    margin-right:calc(-50px - 1vw);
+    margin-bottom: calc(12px + 1vw);
+}
+.left-MarketingContent li{
+    margin-bottom: calc(12px + 1vw);
+    font-size: calc(8px + .55vw);
+}
+.left-MarketingContent li strong{
+    font-size: calc(8px + .7vw);
 }
 .Right-TheRighWay{
     background-color: var(--gradiant1);
