@@ -2,6 +2,14 @@
     padding: 0;
     margin: 0;
 }
+:root{
+    --primary:#00D563;
+    --secondary:#272759;
+    --white:#ffffff;
+    --black:#000000;
+    --gradiant1:#19194b;
+    --gradiant2:#272759;
+}
 
 .position-relative {
     position: relative;
@@ -44,7 +52,7 @@
 span.digital {
     /* font-size: 70px; */
     font-size: calc(2.5vw + 2.5vh + 1vmin);
-    color: #00D563;
+    color: var(--primary);
 
 }
 h1.Digi-marketing{
@@ -54,7 +62,7 @@ h1.Digi-marketing{
 span.marketing {
     /* font-size: 70px; */
     font-size: calc(2.5vw + 2.5vh + 1vmin);
-    color: #ffffff;
+    color: var(--white);
 }
 
 .Vision-UAE {
@@ -63,7 +71,7 @@ span.marketing {
     font-weight: 400;
     font-size: 17px;
     line-height: 152%;
-    color: #FFFFFF;
+    color:var(--white);
     margin-bottom: calc(16px + 0.3vw);
 }
 
