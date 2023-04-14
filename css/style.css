@@ -79,8 +79,40 @@ span.marketing {
 /* ----- Hero Section ----- */
 
 li{
-    /* display: inline-block !important; */
+    list-style: none;
 }
 ::marker{
     height: 100% !important;
+}
+.Hero-Secton-Body{
+    width: 100%;
+    color: var(--white);
+    
+}
+.left-MarketingExperiance{
+    background-color: var(--primary);
+    width: 50%;
+    /* padding:calc(20px + .03vw); */
+}
+.left-MarketingContent{
+    margin: calc(30px + 1vw);
+    margin-left:calc(20px + 1vw);
+    margin-right:calc(100px + 2vw);
+}
+.BoderedBox-Heading{
+    border: 1px solid var(--white);
+    padding: calc(12px + .3vw);
+    border-radius: 10px;
+    margin-right:calc(50px + 1vw);
+}
+.Right-TheRighWay{
+    background-color: var(--gradiant1);
+    width: 50%;
+
+}
+.RightWay-Content{
+    text-align: right;
+    margin: calc(30px + 1vw);
+    margin-right:calc(20px + 1vw);
+    margin-left:calc(100px + 2vw);
 }
