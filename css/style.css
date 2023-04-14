@@ -111,9 +111,21 @@ li{
 .left-MarketingContent li{
     margin-bottom: calc(12px + 1vw);
     font-size: calc(8px + .55vw);
+    position: relative;
+    padding-left: 15px;
 }
 .left-MarketingContent li strong{
     font-size: calc(8px + .7vw);
+}
+.left-MarketingContent li::before{
+    content: "";
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: var(--white);
+    position: absolute;
+    left: 0;
+    top: 10%;
 }
 .Right-TheRighWay{
     background-color: var(--gradiant1);
@@ -125,4 +137,48 @@ li{
     margin: calc(30px + 1vw);
     margin-right:calc(20px + 1vw);
     margin-left:calc(100px + 2vw);
+}
+.Build-and-Grow{
+    margin-bottom: calc(12px + 1vw);
+    color: var(--primary);
+    position: relative;
+}
+.Build-and-Grow::after{
+    content: "";
+    width: 100px;
+    height:1%;
+    background-color: var(--primary);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+}
+.text-white{
+    color: var(--white);
+}
+.Build-and-Grow p{
+    font-size: calc(12px + .75vw) !important;
+    font-weight: 500;
+    line-height: 150%;
+}
+.RightWay-Content>p{
+    margin-bottom: calc(12px + .5vw);
+    font-size: calc(8px + .55vw) ;
+    position: relative;
+    padding-right: 15px;
+}
+.RightWay-Content>p::after{
+    content: "";
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: var(--white);
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
+.Hamza-Portrait{
+    max-width: 30%;
+    top:0;
+    left: 35%;
 }
