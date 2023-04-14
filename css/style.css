@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.position-relative {
+    position: relative;
+}
+
+.position-absolute {
+    position: absolute;
+}
+.d-inline{
+    display: inline;
+}
+.d-flex{
+    display: flex;
+}
+.align-center{
+    align-items: center;
+}
+.justify-center{
+    justify-content: center;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+.flex-column{
+    flex-direction: column;
+}
+.flex-row{
+    flex-direction: row;
+}
+
+/* ------- Header ----- */
+
+.DigitalMarketer_header {
+    width: 30%;
+    top: 40%;
+    left: 60%;
+    font-family: 'Poppins';
+}
+
+span.digital {
+    /* font-size: 70px; */
+    font-size: calc(2.5vw + 2.5vh + 1vmin);
+    color: #00D563;
+
+}
+h1.Digi-marketing{
+    margin-bottom: calc(16px + 0.3vw);
+}
+
+span.marketing {
+    /* font-size: 70px; */
+    font-size: calc(2.5vw + 2.5vh + 1vmin);
+    color: #ffffff;
+}
+
+.Vision-UAE {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 152%;
+    color: #FFFFFF;
+    margin-bottom: calc(16px + 0.3vw);
+}
+
+
+/* ----- Hero Section ----- */
+
+li{
+    /* display: inline-block !important; */
+}
+::marker{
+    height: 100% !important;
+}
