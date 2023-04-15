@@ -1,0 +1,12 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --primary:#00D563;
+    --secondary:#272759;
+    --white:#ffffff;
+    --black:#000000;
+    --gradiant1:#19194b;
+    --gradiant2:#272759;
+}
