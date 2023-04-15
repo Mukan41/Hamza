@@ -425,7 +425,7 @@ span.marketing {
 /* ----------- Campaign process section ----------- */
 
 .business-grow-section{
-height: 1100px;
+height: 1000px;
 background-color: var(--primary);
 }
 .business-result{
@@ -489,28 +489,3 @@ font-size: 22px;
 
 
 
-@media (max-width:768px) {
-    .mobile-hide {
-        display: none;
-    }
-
-    .digitalmarketing-box {
-        justify-content: end;
-    }
-
-    .digitalmarketer_header {
-        width: 50%;
-        margin-right: 0 !important;
-    }
-
-    .marketing-right-container {
-        position: relative;
-    }
-
-    .hamza-portrait {
-        /* max-width: 50%; */
-        height: 113%;
-        top: 42%;
-        left: 30%;
-    }
-}
