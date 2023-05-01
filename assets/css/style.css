@@ -43,6 +43,9 @@
 .intro-section {
     height: 100%;
 }
+.header-image{
+    width:100% !important;
+}
 
 .digitalmarketer_header {
     font-family: 'Poppins';
@@ -434,9 +437,11 @@ span.marketing {
     background-color: var(--primary);
     overflow: hidden;
 }
-.mobile-image{
-    max-width:30vw;
+
+.mobile-image {
+    max-width: 30vw;
 }
+
 .business-result {
     margin-top: calc(30px + 2vw);
 }
@@ -466,12 +471,13 @@ span.marketing {
     text-align: center;
     margin-bottom: 1.7rem;
 }
-.contact-form-select{
+
+.contact-form-select {
     font-family: 'Poppins', sans-serif;
-font-size:13px;
-padding:6px 130px 6px 10px;
-margin-right:10px;
-border-radius:6px;
+    font-size: 13px;
+    padding: 6px 130px 6px 10px;
+    margin-right: 10px;
+    border-radius: 6px;
 }
 
 .form-submit-button {
@@ -485,8 +491,9 @@ border-radius:6px;
     justify-content: center;
     gap: 5px;
 }
-.contact-form{
-    opacity:0;
+
+.contact-form {
+    opacity: 0;
     z-index: 100;
 }
 

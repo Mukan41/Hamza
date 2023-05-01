@@ -38,14 +38,69 @@
         left: -110px;
         bottom:41%;
     }
+    .contact-form-select {
+        padding: 6px 115px 6px 10px;
+    }
+    
+    .form-submit-button {
+        padding: 3px 25px;
+        gap: 4px;
+    }
 }
 @media (max-width:576px){
+    span.digital {
+        font-size: calc(2vw + 2vh + 1vmin);
+    
+    }
+    
+    h1.digi-marketing {
+        margin-bottom: calc(8px + 0.3vw);
+    }
+    
+    span.marketing {
+        font-size: calc(2vw + 2vh + 1vmin);
+    }
+    
+    .vision-uae {
+        font-size: 12px;
+        margin-bottom: calc(13px + 0.3vw);
+    }
+    .header-button{
+        font-size: 12px;
+    }
     .campaignsetup {
         left: -101px;
         bottom:41%;
     }
+    .contact-form-select {
+        padding: 6px 100px 6px 10px;
+    }
+    
+    .form-submit-button {
+        padding: 3px 20px;
+        gap: 4px;
+    }
 }
 @media (max-width:450px){
+    span.digital {
+        font-size: calc(1.7vw + 1.7vh + 1vmin);
+    }
+    
+    h1.digi-marketing {
+        margin-bottom: calc(6px + 0.3vw);
+    }
+    
+    span.marketing {
+        font-size: calc(1.7vw + 1.7vh + 1vmin);
+    }
+    
+    .vision-uae {
+        font-size: 10px;
+        margin-bottom: calc(10px + 0.3vw);
+    }
+    .header-button{
+        font-size: 9px;
+    }
     .campaignsetup {
         left: -83px;
         bottom:41%;

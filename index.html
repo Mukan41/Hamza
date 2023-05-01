@@ -18,8 +18,8 @@
     <header>
         <div class="container-fluid p-0 overflow-hidden">
             <div class="row position-relative">
-                <div class="col-md-12">
-                    <img src="./assets/images/Group 26.jpg" alt="">
+                <div class="col-md-12 text-center">
+                    <img src="./assets/images/Group 26.jpg" alt="" class=" img-fluid header-image">
                 </div>
                 <div class="col-md-12  intro-section position-absolute">
                     <div class="row  intro-section">
@@ -31,7 +31,7 @@
                                 <p class="vision-uae">UAE'S VISION COMBINED WITH GERMAN PRECISION—THE GOLD STANDARD TO
                                     GROW BUSINESS.
                                 </p>
-                                <button class="btn btn-outline">REQUEST A FREE QUOTE</button>
+                                <button class="btn btn-outline header-button">REQUEST A FREE QUOTE</button>
                             </div>
                         </div>
                     </div>
@@ -252,78 +252,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/gsap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/ScrollTrigger.min.js"></script>
-    <script>
-        gsap.to(".mobile-scale", {
-            scrollTrigger: {
-                trigger: ".main-div",
-                markers: true,
-                scrub: true,
-                start: "top center",
-                end: "+=" + window.innerHeight * 2,
-                pin: true
-            },
-            scale: 4
-        });
-        gsap.to(".mobile-scale", {
-            opacity: 0,
-            scrollTrigger: {
-                trigger: ".main-div",
-                markers: true,
-                scrub: true,
-                start: "bottom bottom",
-                end: "+=" + window.innerHeight * .1,
-                pin: true
-            },
-        });
-        gsap.to(".mainfont-drive", {
-            opacity: 0,
-            scrollTrigger: {
-                trigger: ".main-div",
-                markers: true,
-                scrub: true,
-                start: "bottom bottom",
-                end: "+=" + window.innerHeight * .1,
-                pin: true
-            },
-        });
-        gsap.to(".secondaryfont-drive", {
-            opacity: 0,
-            scrollTrigger: {
-                trigger: ".main-div",
-                markers: true,
-                scrub: true,
-                start: "bottom bottom",
-                end: "+=" + window.innerHeight * .1,
-                pin: true
-            },
-        });
-        gsap.to(".business-grow-section", {
-            backgroundColor: 'black',
-            scrollTrigger: {
-                trigger: ".main-div",
-                markers: true,
-                scrub: true,
-                start: "bottom bottom",
-                end: "+=" + window.innerHeight * .1,
-                pin: true
-            },
-            
-        });
-        gsap.to(".contact-form", {
-
-            opacity: 1,
-            yPercent: -200,
-            ease: "Power1.easeIn",
-            scrollTrigger: {
-                trigger: ".main-div",
-                markers: true,
-                scrub: true,
-                start: "bottom bottom",
-                end: "+=" + window.innerHeight * 1,
-                pin: true
-            },
-        });
-    </script>
+    <script src="./assets/js/script.js"></script>
 </body>
 
 </html>
