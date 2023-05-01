@@ -1,0 +1,53 @@
+@media (min-width:1200px){
+    .campaignsetup {
+        left: calc(-34px - 10vw);
+        bottom:41%;
+    }
+}
+@media (max-width:992px){
+    .campaignsetup {
+        left: -14%;
+        bottom:41%;
+    }
+}
+@media (max-width:768px) {
+    .mobile-hide {
+        display: none;
+    }
+
+    .digitalmarketing-box {
+        justify-content: end;
+    }
+
+    .digitalmarketer_header {
+        width: 50%;
+        margin-right: 0 !important;
+    }
+
+    .marketing-right-container {
+        position: relative;
+    }
+
+    .hamza-portrait {
+        /* max-width: 50%; */
+        height: 113%;
+        top: 42%;
+        left: 30%;
+    }
+    .campaignsetup {
+        left: -110px;
+        bottom:41%;
+    }
+}
+@media (max-width:576px){
+    .campaignsetup {
+        left: -101px;
+        bottom:41%;
+    }
+}
+@media (max-width:450px){
+    .campaignsetup {
+        left: -83px;
+        bottom:41%;
+    }
+}

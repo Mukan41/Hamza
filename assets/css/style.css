@@ -199,6 +199,7 @@ span.marketing {
 .upwork-body {
     height: 800px;
 }
+
 .upwork-content-box {
     color: var(--secondary);
     z-index: 2;
@@ -399,93 +400,140 @@ span.marketing {
     font-weight: 700;
     transform: rotate(270deg);
     position: absolute;
-    left: -90px;
-    bottom:41%;
-    translate:middle;
+    left: -124px;
+    bottom: 41%;
+    translate: middle;
 }
-.campaign-heading{
+
+.campaign-heading {
     font-size: calc(24px + 2vw);
     font-weight: 700;
     color: var(--primary);
 }
+
 .text-white {
     color: var(--white);
 }
-.campaign-process-body svg{
+
+/* .campaign-process-body svg{
     width: 100%;
     margin: auto;
     height: auto;
-}
+} */
 /* .campaign-image{
-    max-width: 90%;
+    max-width: 30vw;
     margin: auto;
 } */
 
 
+
 /* ----------- Campaign process section ----------- */
 
-.business-grow-section{
-height: 1000px;
-background-color: var(--primary);
+.business-grow-section {
+    min-height: 100vh;
+    background-color: var(--primary);
+    overflow: hidden;
 }
-.business-result{
+.mobile-image{
+    max-width:30vw;
+}
+.business-result {
     margin-top: calc(30px + 2vw);
 }
-.mainfont-drive{
+
+.mainfont-drive {
     font-size: calc(20px + 2vw);
     font-weight: 700;
     color: var(--secondary);
 }
-.secondaryfont-drive{
+
+.secondaryfont-drive {
     font-size: calc(11px + .5vw);
     color: var(--secondary);
 }
-.mobile-image{
-    max-width: 100%;
-    left: 50%;
-    transform: translateX(-50%);
+
+.heading-form {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.paragraph-form {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    text-align: center;
+    margin-bottom: 1.7rem;
+}
+.contact-form-select{
+    font-family: 'Poppins', sans-serif;
+font-size:13px;
+padding:6px 130px 6px 10px;
+margin-right:10px;
+border-radius:6px;
+}
+
+.form-submit-button {
+    font-family: 'Poppins', sans-serif;
+    padding: 3px 30px;
+    background-color: rgb(71 183 198);
+    border: 0;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.contact-form{
+    opacity:0;
+    z-index: 100;
 }
 
 
 
 /* ---------------- footer section ------------------ */
- .footer-section{
+
+.footer-section {
     background-color: var(--black);
- }
- .slogen span:first-child{
+}
+
+.slogen span:first-child {
     font-size: calc(19px + 1vw);
     color: var(--white);
- }
- .slogen span:last-child{
+}
+
+.slogen span:last-child {
     font-size: calc(19px + 1vw);
     color: rgb(202, 202, 0);
- }
- .footer-section ul{
+}
+
+.footer-section ul {
     padding: 0;
- }
-.footer-section li{
+}
+
+.footer-section li {
     list-style: none;
 }
-.footer-section a{
+
+.footer-section a {
     text-decoration: none;
     color: var(--white);
 }
-.footer-section a:hover{
+
+.footer-section a:hover {
     color: rgb(202, 202, 0);
 }
-.social-connect i{
-color: var(--secondary);
-font-size: 22px;
+
+.social-connect i {
+    color: var(--secondary);
+    font-size: 22px;
 }
-.social-connect i:hover{
+
+.social-connect i:hover {
     color: var(--primary);
-    }
-.footer-address p{
+}
+
+.footer-address p {
     color: var(--white);
 }
-
-
-
-
-
-
