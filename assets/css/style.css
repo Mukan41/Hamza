@@ -43,8 +43,9 @@
 .intro-section {
     height: 100%;
 }
-.header-image{
-    width:100% !important;
+
+.header-image {
+    width: 100% !important;
 }
 
 .digitalmarketer_header {
@@ -505,6 +506,7 @@ span.marketing {
     background-color: var(--black);
 }
 
+
 .slogen span:first-child {
     font-size: calc(19px + 1vw);
     color: var(--white);
@@ -515,32 +517,24 @@ span.marketing {
     color: rgb(202, 202, 0);
 }
 
-.footer-section ul {
-    padding: 0;
-}
 
-.footer-section li {
-    list-style: none;
-}
 
-.footer-section a {
+
+.footer-section h1{
+    line-height: 93%;
+}
+.fa {
+    padding: 9px;
+    font-size: 22px !important;
+    width: 40px;
+    text-align: center;
     text-decoration: none;
-    color: var(--white);
+    margin: 5px .6rem;
+    border-radius: 50%;
+    background-color: white !important;
+    color: black !important;
 }
 
-.footer-section a:hover {
-    color: rgb(202, 202, 0);
-}
-
-.social-connect i {
-    color: var(--secondary);
-    font-size: 22px;
-}
-
-.social-connect i:hover {
-    color: var(--primary);
-}
-
-.footer-address p {
-    color: var(--white);
+.fa:hover {
+    background-color: rgb(202, 202, 0) !important;
 }
